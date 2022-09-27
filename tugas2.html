@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Data Diri Pengguna Sistem Informasi Menu Makanan
+    </title>
+    <link rel="stylesheet" href="tugas2.css">
+  </head>
+<body>
+  <div class="banner">
+    <div class="navbar">
+      <img src="logo.png" class="logo">
+    </div>
+    <div class="content">
+      <h1>
+        Data Diri Pengguna Sistem Informasi Menu Makanan
+      </h1><br>
+      <p>
+        <form action="/action_page.php">
+          <label for="username">Username:</label><br>
+          <input type="text" id="username" username="username" autofocus required><br>
+          <label for="nama">Nama:</label><br>
+          <input type="text" id="nama" nama="nama" required><br>
+          <label for="umur">Umur:</label><br>
+          <input type="text" id="umur" umur="umur" required>
+        </form>
+        <a> Jenis Kelamin: </a>
+        <form action="/action_page.php">
+          <input type="radio" id="laki_laki" name="fav_language" value="Laki-laki">
+          <label for="laki_laki">Laki-laki</label><br>
+          <input type="radio" id="perempuan" name="fav_language" value="Perempuan">
+          <label for="perempuan">Perempuan</label><br>
+        </form> 
+        <p>
+          <form action="/action_page.php">
+            <label for="berat">Berat Badan (kg):</label><br>
+            <input type="text" id="berat" berat="berat" required><br>
+            <label for="tinggi">Tinggi Badan (cm):</label><br>
+            <input type="text" id="tinggi" tinggi="tinggi" required>
+          </form>
+          <form action="/action_page.php">
+            <label for="alergi">Alergi Makanan/Minuman (kosongkan apabila tidak memiliki):</label><br>
+            <input type="text" id="alergi" alergi="alergi"><br>
+        </p>
+        <input type="submit" value="Submit">
+      </p>
+    </div>
+  </div>
+</body>
+</html>
